@@ -7,6 +7,8 @@ body {
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
+    justify-content: space-between;
+    flex-wrap: wrap;
   } 
 
   header h1 {
@@ -14,6 +16,7 @@ header {
     font-size: 36px;
     color: #fce138;
     margin: 0;
+    display: flex;
   }
   
    header a {
@@ -22,8 +25,9 @@ header {
   } 
 
   header nav {
-    float: right;
+    display: flex;
     margin: 7px 0;
+    display: flex;
   } 
 
   header nav ul li {
@@ -41,7 +45,7 @@ header {
     font-size: 36px;
     color: #fce138;
     margin: 0;
-    display: inline;
+    display: flex;
   } 
 
   * {
@@ -83,7 +87,7 @@ header {
   } 
 /* Hero Style Start */
 .hero {
-    background-image: url("../images/flipped-hero-image.jpeg");
+    background-image: url("../images/flipped-hero-bg.jpeg");
     height: 600px;
     background-size: cover;
     background position: center;
